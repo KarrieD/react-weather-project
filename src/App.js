@@ -6,12 +6,13 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="Chicago" />
         <footer>
-          This project was coded by Karrie Brooks and is {" "}
+          This project was coded by Karrie Brooks and is{" "}
           <a
             href="https://github.com/KarrieD/react-weather-project"
             target="_blank"
+            rel="noreferrer"
           >
             open-sourced
           </a>{" "}
