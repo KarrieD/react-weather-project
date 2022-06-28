@@ -40,7 +40,7 @@
   line-height: 64px;
 }
 
-.Weather img {
+.Weather canvas {
   height: 74px;
   display: inline-block;
   margin-right: 10px;
@@ -52,5 +52,4 @@
   font-weight: 400;
   position: relative;
   top: -22px;
-
 }
